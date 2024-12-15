@@ -3170,8 +3170,13 @@ let unsplash = "url(https://source.unsplash.com/random/1920x1080/)";
 
 
 // 更换背景(自己的代码)
-/* --mlight-bk: url(https://tuchuang.voooe.cn/images/2024/12/15/mlight.png)
---mnight-bk: url(https://tuchuang.voooe.cn/images/2024/12/15/mnight.png) */
+/* 
+https://www.blogchen.us.kg/images/bk-50.png
+--mlight-bk: url(https://tuchuang.voooe.cn/images/2024/12/15/mlight.png)
+--mnight-bk: url(https://tuchuang.voooe.cn/images/2024/12/15/mnight.png)
+--PClight-bk: url(https://tuchuang.voooe.cn/images/2024/12/15/bk-50.png)
+--PCnight-bk: url(https://tuchuang.voooe.cn/images/2024/12/15/720-N.png)
+*/
 
 if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
@@ -3181,8 +3186,8 @@ if (localStorage.getItem("blogbg") != undefined) {
     --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
     --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
     --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
-    --PClight-bk: url(https://www.blogchen.us.kg/images/bk-50.png);
-    --PCnight-bk: url(https://www.blogchen.us.kg/images/720-N.png);
+    --PClight-bk: url(https://tuchuang.voooe.cn/images/2024/12/15/bk-50.png);
+    --PCnight-bk: url(https://tuchuang.voooe.cn/images/2024/12/15/720-N.png);
     --mlight-bk: url(https://tuchuang.voooe.cn/images/2024/12/15/mlight.png);
     --mnight-bk: url(https://tuchuang.voooe.cn/images/2024/12/15/mnight.png);
   }`;
