@@ -3183,8 +3183,8 @@ if (localStorage.getItem("blogbg") != undefined) {
     --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
     --PClight-bk: url(https://www.blogchen.us.kg/images/bk-50.png);
     --PCnight-bk: url(https://www.blogchen.us.kg/images/720-N.png);
-    --mlight-bk: url(https://tuchuang.voooe.cn/images/2024/12/15/mlight.png)
-    --mnight-bk: url(https://tuchuang.voooe.cn/images/2024/12/15/mnight.png)
+    --mlight-bk: url(https://tuchuang.voooe.cn/images/2024/12/15/mlight.png);
+    --mnight-bk: url(https://tuchuang.voooe.cn/images/2024/12/15/mnight.png);
   }`;
 }
 // 切换背景主函数
